@@ -21,7 +21,7 @@
         <header>
             <div class="row">
                 <h1 class="title">
-                    Follow the cursor Demo
+                    Suivi du curseur demo
                 </h1>
                 <nav class="demos"></nav>
             </div>
@@ -158,10 +158,10 @@
 
             var showDemos = function() {
                 createDemo('Basic', setFollowerOptionsBasic);
-                createDemo('Bat', setFollowerOptionsBat);
-                createDemo('Ghost13', setFollowerOptions13);
+                //createDemo('Bat', setFollowerOptionsBat);
+                //createDemo('Ghost13', setFollowerOptions13);
                 createDemo('McGhost', setFollowerOptionsTartan);
-                createDemo('Boo', setFollowerOptionsBoo);
+                //createDemo('Boo', setFollowerOptionsBoo);
                 window.addEventListener('popstate', onPopState);
                 onPopState({state: window.location.search.split('?').pop() || 'circle'});
             };
